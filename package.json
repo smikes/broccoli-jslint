@@ -29,6 +29,10 @@
     "jslint": "^0.4.0",
     "rsvp": "^3.0.6"
   },
+  "files": [
+    "lib",
+    "LICENSE"
+  ],
   "devDependencies": {
     "istanbul": "^0.2.10",
     "mocha": "^1.18.2",
