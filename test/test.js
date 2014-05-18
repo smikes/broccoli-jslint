@@ -58,9 +58,9 @@ describe('processFile', function () {
             logger = function (s) { errors.push(s); },
             filter = new JSLintFilter({}, { logger: logger });
 
-        var p = filter.processFile('test/fixtures', 'out', 'broken.js');
+        var p = filter.processFile('test/fixtures', 'out', 'valid.js');
 
-        errors.length.should.equal(2);
+        errors.length.should.equal(0);
         // TODO(SOM): output file should exist
 
         done();
