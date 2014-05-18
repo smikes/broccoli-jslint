@@ -1,0 +1,37 @@
+{
+  "name": "broccoli-jslint",
+  "version": "0.0.0",
+  "description": "Plugin for broccoli to run jslint static analysis tool on javascript files",
+  "main": "lib/run.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/smikes/broccoli-jslint.git"
+  },
+  "keywords": [
+    "broccoli",
+    "jslint",
+    "lint",
+    "static-analysis",
+    "javascript",
+    "broccoli-plugin"
+  ],
+  "author": "Sam Mikes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smikes/broccoli-jslint/issues"
+  },
+  "homepage": "https://github.com/smikes/broccoli-jslint",
+  "dependencies": {
+    "broccoli-filter": "^0.1.6",
+    "jslint": "^0.4.0",
+    "rsvp": "^3.0.6"
+  },
+  "devDependencies": {
+    "istanbul": "^0.2.10",
+    "mocha": "^1.18.2",
+    "should": "^3.3.1"
+  }
+}
