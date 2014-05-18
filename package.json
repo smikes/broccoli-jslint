@@ -1,6 +1,6 @@
 {
   "name": "broccoli-jslint",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Plugin for broccoli to run jslint static analysis tool on javascript files",
   "main": "lib/run.js",
   "scripts": {
