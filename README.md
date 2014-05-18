@@ -12,7 +12,7 @@ Inspired by makepanic/broccoli-eslint
 ## Example
 
     var jslint = require('broccoli-jslint');
-    tree = jslint(tree, { latest: 'true' });
+    tree = jslint(tree, { edition: 'latest' });
 
 
 ## API
