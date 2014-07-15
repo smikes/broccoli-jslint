@@ -26,7 +26,7 @@
   "homepage": "https://github.com/smikes/broccoli-jslint",
   "dependencies": {
     "broccoli-filter": "^0.1.6",
-    "jslint": "^0.4.0",
+    "jslint": "^0.6.1",
     "rsvp": "^3.0.6"
   },
   "files": [
